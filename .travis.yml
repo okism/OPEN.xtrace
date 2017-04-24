@@ -11,6 +11,6 @@ before_install:
  - cd ..
 
 # run gradle
-script:
- - cd open.xtrace
- - ./gradlew build
+#script:
+# - cd open.xtrace
+# - ./gradlew build
