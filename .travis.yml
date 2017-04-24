@@ -10,7 +10,9 @@ before_install:
  - chmod +x gradlew
  - cd ..
 
+jdk:
+  - oraclejdk8
+
 # run gradle
 script:
- - cd open.xtrace
- - gradle build
+  - ./gradlew
