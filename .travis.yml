@@ -3,15 +3,17 @@ language: java
 
 # temporary change permissions on gradle wrapper
 before_install:
- - cd open.xtrace
- - chmod +x gradlew
- - cd ..
- - cd open.xtrace.adapters
- - chmod +x gradlew
- - cd ..
+# - cd open.xtrace
+# - chmod +x gradlew
+# - cd ..
+# - cd open.xtrace.adapters
+# - chmod +x gradlew
+# - cd ..
+ - chmod +x ./open.xtrace/gradlew
+ - chmod +x ./open.xtrace.adapters/gradlew
 
-jdk:
-  - oraclejdk8
+#jdk:
+#  - oraclejdk8
 
 # run gradle
 script:
