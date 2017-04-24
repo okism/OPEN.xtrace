@@ -15,4 +15,5 @@ jdk:
 
 # run gradle
 script:
+  - cd open.xtrace
   - ./gradlew
